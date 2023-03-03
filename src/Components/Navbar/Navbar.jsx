@@ -11,7 +11,7 @@ const Navbar = () => {
 
             <div className="logoDiv">
                 <a href="#" className="logo flex">
-                    <h1><MdOutlineTravelExplore className="icon"/> Travel</h1>
+                    <h1><MdOutlineTravelExplore className="icon"/>  Travel.</h1>
                 </a>
             </div>
 
@@ -45,8 +45,9 @@ const Navbar = () => {
                    <li className="navItem">
                     <a href="#" className="navLink">Contact</a>
                    </li> 
+
                    <button className='btn'>
-                    <a href="#">BOOK NOW</a>
+                        <a href="#">BOOK NOW</a>
                    </button>
                 </ul>
 
@@ -57,6 +58,7 @@ const Navbar = () => {
             <div className="toggleNavbar">
                 <TbGridDots className="icon"/>
             </div>
+
         </header>
     </section>
   )
