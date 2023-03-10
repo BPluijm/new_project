@@ -23,6 +23,7 @@
     z-index: 1000;
     box-shadow: 0 2px 4px rgba(2, 15, 29, 0.242);
 }
+
 .navLists{
    display: flex;
    flex-direction: row;
@@ -33,9 +34,9 @@
    padding: .1rem;
 }
 
-.navItem{
-   padding: 1rem 0;
-}
+/* .navItem{
+   display: none;
+} */
 
 .logo{
    color: var(--blackColor);
@@ -59,6 +60,33 @@
  .toggleNavbar .icon:hover{
    color: var(--SecondaryColor);
  }
+
+
+
+ /* .closeNavbar{
+   position: absolute;
+   display: none;
+   top: 1rem;
+   right: 1.5rem;
+   color: var(--PrimaryColor);
+} */
+
+/* .closeNavbar:hover{
+   color: var(--SecondaryColor);
+}
+
+.activeNavbar{
+   top: 7rem;
+}
+
+.toggleNavbar{
+   display: flex;
+   margin-right: 5px;
+}
+
+.btn{
+   display: none;
+} */
 
 
  
