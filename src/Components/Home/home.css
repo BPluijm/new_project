@@ -126,6 +126,7 @@ input::placeholder{
     background: blue;
 }
 
+
 .searchOptions{
    position: absolute;
    background: var(--gradientColor);
@@ -134,4 +135,20 @@ input::placeholder{
    column-gap: .8rem;
    padding: 5px 1rem; 
    border-radius: 3rem;
+   left: 50%;
+   transform: translate(-50%);
+   justify-content: center;
+   cursor: pointer;
+}
+
+.searchOptions:hover{
+    background: var(--PrimaryColor);
+}
+
+.searchOptions .icon{
+    font-size: 13px;
+}
+
+span{
+    font-size: 13px;
 }
