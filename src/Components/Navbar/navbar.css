@@ -86,9 +86,9 @@
    top: 1rem;
    right: 1.5rem;
    color: var(--PrimaryColor);
-} */
+}
 
-/* .closeNavbar:hover{
+.closeNavbar:hover{
    color: var(--SecondaryColor);
 }
 
@@ -180,6 +180,3 @@
       margin-right: 5px;
    }
 }
-
-
-

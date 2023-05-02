@@ -52,7 +52,7 @@ const Navbar = () => {
                    </li> 
 
                    <li className="navItem">
-                    <a href="#" className="navLink">Contact</a>
+                    <a href="#" className="navLink">Contact</a> 
                    </li> 
 
                    <button className='btn'>
